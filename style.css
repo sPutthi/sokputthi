@@ -1,0 +1,131 @@
+.menu {
+    display: flex;
+    justify-content: center;
+}
+.menu2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu .menu2 a {
+    font-size: 1.2rem;
+    color: white;
+}
+.menu .menu2 a:hover{
+    color: #5E3BEE;
+}
+.home {
+    height: 600px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 auto;
+}
+.hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.hello img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+.greet { 
+    display: flex;
+    flex-direction: column;
+    padding-top: 13%;
+}
+.greet p {
+    margin: 0;
+    font-size: 1.6rem;
+}
+#g1 {
+    font-size: 25px;
+}
+#g2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #5E3BEE;
+}
+#g3 {
+    font-size: 25px;
+}
+.about{
+    width: auto;
+    height: auto;
+    background-color: #f8f9fa;
+}
+.about .container .row .col-4 img{
+    object-fit: cover;
+}
+.about .container .row .col-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 auto;
+}
+.about .container .row .col-8{
+    padding: 0 auto;
+    padding-top: 2%;
+}
+.about p{
+    text-align: justify;
+}
+.feild{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+    justify-content: center;
+}
+.feild h4{
+    text-align: center;
+}
+.feild p{
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 16px;
+}
+
+.feild .container .card img{
+    width: auto;
+    height: 210px;
+    align-items: center;
+    justify-content: center;
+    object-fit: fill;
+}
+.feild .container .card{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.feild .container .card .card-title{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.port{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f8f9fa;
+}
+.port .container{
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+.footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer a {
+    margin: 0 15px;
+    color: white;
+    font-size: 1.5rem;
+}
+.footer a:hover {
+    color: #5E3BEE;
+}
