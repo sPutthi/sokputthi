@@ -101,6 +101,9 @@
     align-items: center;
     justify-content: center;
 }
+.feild .container .row .col{
+    padding-bottom: 7%;
+}
 .feild .container .card .card-title{
     text-align: center;
     align-items: center;
