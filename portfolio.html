@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
-        /* Prevent text selection */
         body {
             -webkit-user-select: none;
             -moz-user-select: none;
@@ -19,10 +19,7 @@
         }
     </style>
     <script>
-        // Disable right-click context menu
         document.addEventListener('contextmenu', event => event.preventDefault());
-
-        // Disable F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, etc.
         document.addEventListener('keydown', event => {
             if (event.keyCode == 123 || // F12
                 (event.ctrlKey && event.shiftKey && event.keyCode == 73) || // Ctrl+Shift+I
@@ -33,8 +30,6 @@
                 return false;
             }
         });
-
-        // Function to prevent developer tools from opening
         (function() {
             var devtools = function() {};
             devtools.toString = function() {
@@ -47,27 +42,31 @@
     </script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="collapse navbar-collapse menu" id="navbarNav">
-            <ul class="navbar-nav menu1">
-                <li class="nav-item menu2">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
                     <a class="nav-link" href="#hom">Home</a>
                 </li>
-                <li class="nav-item menu2">
+                <li class="nav-item">
                     <a class="nav-link" href="#abo">About</a>
                 </li>
-                <li class="nav-item menu2">
+                <li class="nav-item">
                     <a class="nav-link" href="#foc">Focus Field</a>
                 </li>
-                <li class="nav-item menu2">
+                <li class="nav-item">
                     <a class="nav-link" href="#pot">Portfolio</a>
                 </li>
-                <li class="nav-item menu2">
+                <li class="nav-item">
                     <a class="nav-link" href="#foot">Contact</a>
                 </li>
             </ul>
         </div>
-    </nav>
+    </nav>      
     <div class="container">
         <div class="home" id="hom" data-aos="fade-up">
             <div class="row">

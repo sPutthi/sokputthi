@@ -1,3 +1,32 @@
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+    padding-left: 30px;
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #5E3BEE;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: left;
+    }
+    .navbar-collapse {
+        background-color: #343a40;
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+    .navbar-toggler span i {
+        font-size: 24px;
+        color: white;
+    }
+}
+
 .menu {
     display: flex;
     justify-content: center;
